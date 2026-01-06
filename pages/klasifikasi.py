@@ -520,8 +520,8 @@ elif st.session_state.current_page == 'tentang':
 def load_model():
     """Load the trained model and scaler"""
     try:
-        model_path = 'd:\Sem 7\PP_AAA\Rampung\Model_SVM.pkl'
-        scaler_path = 'D:\Sem 7\PP_AAA\Rampung\Model_Scaler.pkl'
+        model_path = 'Model_SVM.pkl'
+        scaler_path = 'Model_Scaler.pkl'
         
         if not os.path.exists(model_path) or not os.path.exists(scaler_path):
             st.error("Model tidak ditemukan! Pastikan file model ada di direktori.")
