@@ -6,7 +6,7 @@ from PIL import Image
 import io
 import os
 import matplotlib.pyplot as plt
-from skimage.feature import graycomatrix, graycoprops
+from skimage.feature.texture import graycomatrix, graycoprops
 from styles import COMMON_STYLES, HIDE_ST_STYLE, display_sidebar_header
 
 
