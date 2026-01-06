@@ -1,7 +1,9 @@
 streamlit
 numpy>=1.26
 scikit-learn
+scikit-image
 joblib
 Pillow
 opencv-python-headless
 matplotlib
+
