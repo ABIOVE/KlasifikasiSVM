@@ -1,11 +1,6 @@
 streamlit
-numpy
-pandas
+numpy>=1.26
 scikit-learn
-opencv-python-headless
 joblib
 Pillow
-matplotlib
-
-
-
+opencv-python-headless
